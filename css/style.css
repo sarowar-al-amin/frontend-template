@@ -92,10 +92,19 @@ body{
 	margin-right:20px;
 	float:left;
 }
+
+#content p{
+	margin: 15px 0;
+	font-size: 15px;
+}
 #content h2{
 	font-family:georgia;
 	border-bottom:3px;
 	font-weight:bold;
+}
+#content h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
 }
 #sidebar{
 	width:300px;
@@ -117,6 +126,12 @@ body{
 }
 #content p{
 	font-family:georgia;
+}
+
+#content img{
+	width: 450px;
+	margin: 0 auto;
+	display: block;
 }
 
 #footer{

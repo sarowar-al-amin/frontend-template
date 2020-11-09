@@ -76,10 +76,6 @@ body{
 	width:190px;
 }
 
-#slider_wrapper{
-
-}
-
 
 #content_wrapper{
 	background-color:#fff;
@@ -168,4 +164,30 @@ blockquote {
 .nivoSlider {
 	width:960px;
 	height:400px;
+}
+
+#first_main_article{
+	margin-bottom: 25px;
+	border-bottom: 1px solid #8a8686;
+	overflow: hidden;
+}
+
+#imgp_wrap{
+	margin-top: 10px;
+}
+
+#imgp_wrap img{
+	width: 100px;
+	height: 75px;
+	background-color: #fff;
+	border: 2px solid #7a7777;
+	padding-left: 3px;
+	margin-right: 10px;
+	float: left;
+}
+
+#imgp_wrap p {
+	float: left;
+	width: 500px;
+	margin-top: 0;
 }

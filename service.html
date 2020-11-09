@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Comatible" content="IE-edge">
+		<title>Testing website</title>
+		<!--Those line are responsible for showing slider---->
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<!---Our own design---------->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	    <div id="wrapper">
+			<header>
+				<div id="header">
+					<h2>Website Title</h2>
+					<p>Subtitle goes here</p>
+				</div>
+			</header>
+			<nav>
+				<div id="nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Upcoming &raquo;</a>
+							<ul>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Products</a></li>
+								<li><a href="#">News</a></li>
+								<li><a href="#">Offers</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Team</a></li>
+					</ul>
+				</div>
+			</nav>
+			<section>
+				<div id="slider_wrapper">
+				
+					<!--
+					<img src="img/bmw1.png" alt="Picture of a car">
+					--->
+					<div class="slider-wrapper theme-default">
+						<div id="slider" class="nivoSlider">
+							<img src="img/bmw1.png" data-thumb="images/toystory.jpg" alt="" />
+							<a href="http://dev7studios.com"><img src="img/bmw2.png" data-thumb="img/bmw2.png" alt="" title="This is an example of a caption" /></a>
+							<img src="img/bmw3.png" data-thumb="img/bmw3.png" alt="" data-transition="slideInLeft" />
+							<img src="img/bmw4.jpg" data-thumb="img/bmw4.jpg" alt="" title="#htmlcaption" />
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<div id="content_wrapper">
+				<div id="content">
+					<article>
+						<h2>Car world</h2>
+						<p>Bayerische Motoren Werke AG, commonly referred to as BMW, 
+						is a German multinational company which produces luxury vehicles and
+						motorcycles. The company was founded in 1916 as a manufacturer
+						of aircraft engines, which it produced from 1917 until 1918 and again
+						from 1933 to 1945
+						</p>
+					</article>
+				</div>
+				<div id="sidebar">
+					<aside>
+						<h2>Side bar heading </h2>
+						<ul>
+							<li><a href="#">List</a></li>
+							<li><a href="#">List</a></li>
+							<li><a href="#">List</a></li>
+							<li><a href="#">List</a></li>
+							<li><a href="#">List</a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+
+			<footer>
+				<div id="footer">
+					<p>&copy; All Right Reserved by Sarowar</p>
+				</div>
+			</footer>
+	    </div>
+		<!---Those are script file-------->
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+		$('#slider').nivoSlider();
+		});
+		</script>
+
+	</body>
+</html>
